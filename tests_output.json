@@ -1,0 +1,201 @@
+[
+    "TEST 1",
+    {
+        "B001": {
+            "name": "Book 1",
+            "owner": "U001",
+            "status": "AVAILABLE"
+        },
+        "B002": {
+            "name": "Book 2",
+            "owner": "U002",
+            "status": "AVAILABLE"
+        },
+        "B003": {
+            "name": "Book 3",
+            "owner": "U003",
+            "status": "AVAILABLE AFTER 2020-01-03 00:00:00"
+        }
+    },
+    {
+        "name": "Book 1",
+        "owner": "U001",
+        "status": "AVAILABLE"
+    },
+    {
+        "book_id": "B004"
+    },
+    {
+        "B001": {
+            "name": "Book 1",
+            "owner": "U001",
+            "status": "AVAILABLE"
+        },
+        "B002": {
+            "name": "Book 2",
+            "owner": "U002",
+            "status": "AVAILABLE"
+        },
+        "B003": {
+            "name": "Book 3",
+            "owner": "U003",
+            "status": "AVAILABLE AFTER 2020-01-03 00:00:00"
+        },
+        "B004": {
+            "name": "Book 4",
+            "status": "AVAILABLE",
+            "user": "U004"
+        }
+    },
+    {
+        "name": "Book 4",
+        "status": "AVAILABLE",
+        "user": "U004"
+    },
+    "TEST 2",
+    {
+        "B001": {
+            "name": "Book 1",
+            "owner": "U001",
+            "status": "AVAILABLE"
+        },
+        "B002": {
+            "name": "Book 2",
+            "owner": "U002",
+            "status": "AVAILABLE"
+        },
+        "B003": {
+            "name": "Book 3",
+            "owner": "U003",
+            "status": "AVAILABLE AFTER 2020-01-03 00:00:00"
+        },
+        "B004": {
+            "name": "Book 4",
+            "status": "AVAILABLE",
+            "user": "U004"
+        }
+    },
+    {
+        "R001": {
+            "book_id": "B003",
+            "borrow_end_time": "2020-01-03 00:00:00",
+            "borrow_start_time": "2020-01-01 00:00:00",
+            "borrower": "U004"
+        }
+    },
+    {
+        "borrow_id": "R002"
+    },
+    {
+        "B001": {
+            "name": "Book 1",
+            "owner": "U001",
+            "status": "AVAILABLE AFTER 2020-01-03 00:00:00"
+        },
+        "B002": {
+            "name": "Book 2",
+            "owner": "U002",
+            "status": "AVAILABLE"
+        },
+        "B003": {
+            "name": "Book 3",
+            "owner": "U003",
+            "status": "AVAILABLE AFTER 2020-01-03 00:00:00"
+        },
+        "B004": {
+            "name": "Book 4",
+            "status": "AVAILABLE",
+            "user": "U004"
+        }
+    },
+    {
+        "R001": {
+            "book_id": "B003",
+            "borrow_end_time": "2020-01-03 00:00:00",
+            "borrow_start_time": "2020-01-01 00:00:00",
+            "borrower": "U004"
+        },
+        "R002": {
+            "book_id": "B001",
+            "borrow_end_time": "2020-01-03 00:00:00",
+            "borrow_start_time": "2020-01-01 00:00:00",
+            "borrower": "U005"
+        }
+    },
+    {
+        "book_id": "B001",
+        "borrow_end_time": "2020-01-03 00:00:00",
+        "borrow_start_time": "2020-01-01 00:00:00",
+        "borrower": "U005"
+    },
+    "TEST 3",
+    {
+        "B001": {
+            "name": "Book 1",
+            "owner": "U001",
+            "status": "AVAILABLE AFTER 2020-01-03 00:00:00"
+        },
+        "B002": {
+            "name": "Book 2",
+            "owner": "U002",
+            "status": "AVAILABLE"
+        },
+        "B003": {
+            "name": "Book 3",
+            "owner": "U003",
+            "status": "AVAILABLE AFTER 2020-01-03 00:00:00"
+        },
+        "B004": {
+            "name": "Book 4",
+            "status": "AVAILABLE",
+            "user": "U004"
+        }
+    },
+    {
+        "R001": {
+            "book_id": "B003",
+            "borrow_end_time": "2020-01-03 00:00:00",
+            "borrow_start_time": "2020-01-01 00:00:00",
+            "borrower": "U004"
+        },
+        "R002": {
+            "book_id": "B001",
+            "borrow_end_time": "2020-01-03 00:00:00",
+            "borrow_start_time": "2020-01-01 00:00:00",
+            "borrower": "U005"
+        }
+    },
+    {
+        "book_id": "B001"
+    },
+    {
+        "B001": {
+            "name": "Book 1",
+            "owner": "U001",
+            "status": "AVAILABLE"
+        },
+        "B002": {
+            "name": "Book 2",
+            "owner": "U002",
+            "status": "AVAILABLE"
+        },
+        "B003": {
+            "name": "Book 3",
+            "owner": "U003",
+            "status": "AVAILABLE AFTER 2020-01-03 00:00:00"
+        },
+        "B004": {
+            "name": "Book 4",
+            "status": "AVAILABLE",
+            "user": "U004"
+        }
+    },
+    {
+        "R001": {
+            "book_id": "B003",
+            "borrow_end_time": "2020-01-03 00:00:00",
+            "borrow_start_time": "2020-01-01 00:00:00",
+            "borrower": "U004"
+        }
+    }
+]
